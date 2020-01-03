@@ -5,3 +5,5 @@ const and let
 Arrow Functions
 Imports and Exports
 Classes
+Rest and Spread Operator
+Destructuring
