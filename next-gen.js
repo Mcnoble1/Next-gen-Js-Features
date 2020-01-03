@@ -122,3 +122,18 @@ const filter = (...args) => {
 	return args.filter(el => (el / 2) === 1);
 } 
 console.log(filter(1,2,3));
+
+// Destructuring
+// Array Destructuring
+[a,b] = ['Hello', "Moyinoluwa"];
+console.log(a);
+console.log(b);
+
+numbers = [1,2,3];
+[num1, num2] = numbers;
+[num1, ,num3] = numbers;
+console.log(num1, num2);
+console.log(num1, num3);
+// Object Destructuring
+// {age} = {name: "Festus", age: 20};
+// console.log(age);
